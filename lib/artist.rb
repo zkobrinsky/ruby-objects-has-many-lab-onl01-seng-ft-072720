@@ -7,8 +7,8 @@ def initialize(name)
   @name = name
 end
 
-def add_song(song_obj)
-  song_obj.artist = self
+def add_song(song)
+  song.artist = self
 end
 
 def songs
