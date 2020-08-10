@@ -11,4 +11,8 @@ class Author
     @posts << name
   end
 
+  def posts
+    @posts
+  end
+
 end
