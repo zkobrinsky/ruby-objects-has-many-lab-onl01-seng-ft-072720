@@ -2,7 +2,7 @@ class Post
 
 attr_accessor :title
 
-@@posts = []
+@@all = []
 
 def initialize(title)
   @title = title
@@ -10,7 +10,7 @@ def initialize(title)
 end
 
 def self.all
-  @@posts
+  @@all
 end
 
 
