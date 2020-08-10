@@ -2,8 +2,10 @@ class Post
 
 attr_accessor :title
 
-def initialize
+@@posts = []
 
+def initialize(title)
+  @@posts << self
 end
 
 
