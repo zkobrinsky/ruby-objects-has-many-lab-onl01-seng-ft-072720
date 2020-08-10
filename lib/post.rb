@@ -20,7 +20,7 @@ def self.all
 end
 
 def author_name
-  binding.pry
+  # binding.pry
   if self.author == nil
     return self.author
   else
