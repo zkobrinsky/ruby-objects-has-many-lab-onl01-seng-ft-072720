@@ -8,9 +8,9 @@ def initialize(title)
   @title = title
 end
 
-def new(title)
-  @title = title
-end
+# def new(title)
+#   @title = title
+# end
 
 
 
