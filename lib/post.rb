@@ -1,3 +1,5 @@
+require "pry"
+
 class Post
 
 attr_accessor :author, :title #author only to access Author class
@@ -18,6 +20,7 @@ def self.all
 end
 
 def author_name
+  binding.pry
   self.author.name
 end
 
