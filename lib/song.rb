@@ -9,6 +9,8 @@ def initialize(name, genre)
   @@all << self
 end
 
-
+def self.all
+  @@all
+end
 
 end
