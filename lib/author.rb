@@ -13,7 +13,7 @@ def add_author(author)
 end
 
 def posts
-  # Post.all.select {|post| post.author.name == self}
+  Post.all.select {|post| post.author == self}
 end
 
 
