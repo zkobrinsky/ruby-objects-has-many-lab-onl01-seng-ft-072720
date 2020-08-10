@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def posts
-  Posts.all
+  Post.all
 end
 
 
