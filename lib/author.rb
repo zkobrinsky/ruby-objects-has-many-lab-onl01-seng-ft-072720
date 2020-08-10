@@ -8,7 +8,9 @@ class Author
   end
 
   def new_post(name)
-    @posts << name
+    newpost = Post.new(name)
+    newpost.author = self
+    @posts << newpost
   end
 
   def posts
