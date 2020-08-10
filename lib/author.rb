@@ -6,7 +6,7 @@ class Author
     @name = name
   end
 
-  def new_post(name)
+  def add_post(name)
     name.author = self
   end
 
@@ -16,7 +16,7 @@ class Author
 
   def add_post_by_author(name)
     post = Post.new(name)
-    new_post
+    add_post
   end
 
 end
