@@ -12,7 +12,7 @@ def add_song(song)
 end
 
 def songs
-  @songs
+  Song.all.select {|song_obj| song_obj.artist == self}
 end
 
 end
