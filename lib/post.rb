@@ -13,5 +13,9 @@ def self.all
   @@all
 end
 
+def author
+  self.author.name
+end
+
 
 end
