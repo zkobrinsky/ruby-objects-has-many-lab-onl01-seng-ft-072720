@@ -4,7 +4,7 @@ attr_accessor :artist, :name, :genre
 
 @@all = []
 
-def initialize(name, genre)
+def initialize(name)
   @name = name
   @@all << self
 end
