@@ -22,7 +22,7 @@ end
 def author_name
   # binding.pry
   if self.author == nil
-    return self.author
+    self.author
   else
     self.author.name
   end
