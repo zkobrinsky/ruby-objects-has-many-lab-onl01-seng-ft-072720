@@ -7,4 +7,8 @@ class Author
     @posts = []
   end
 
+  def new_post(name)
+    @posts << name
+  end
+
 end
