@@ -17,8 +17,8 @@ def name
   @name
 end
 
-def artist
-  @artist
+def artist_name
+  self.artist.name
 end
 
 end
